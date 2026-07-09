@@ -2,9 +2,9 @@
 
 ## What is NumPy?
 
-NumPy is a Python library used for numerical computing.
+NumPy (Numerical Python) is a Python library used for fast numerical computing.
 
-It provides fast and memory-efficient arrays that are optimized for mathematical operations.
+It provides a powerful data structure called ndarray (N-dimensional Array), which is faster and more memory-efficient than Python lists.
 
 ---
 
@@ -12,8 +12,15 @@ It provides fast and memory-efficient arrays that are optimized for mathematical
 
 - Faster than Python lists
 - Uses less memory
-- Supports vectorized operations
+- Optimized for mathematical operations
 - Foundation of most ML libraries
+
+Examples of libraries built on NumPy:
+- Pandas
+- Scikit-learn
+- OpenCV
+- TensorFlow
+- PyTorch
 
 ---
 
@@ -36,6 +43,7 @@ arr[-1]
 ```
 
 ## Key Takeaways
-- NumPy is essential for Machine Learning.
+- NumPy is the foundation of Machine Learning.
 - Arrays are faster than Python lists.
-- ndarray is NumPy's core data structure.
+- ndarray is NumPy's primary data structure.
+- Indexing works the same as Python lists.
