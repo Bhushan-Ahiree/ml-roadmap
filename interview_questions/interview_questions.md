@@ -21,3 +21,14 @@ Q3. Is Reinforcement Learning supervised?
 Answer:
 No. Reinforcement Learning learns through interaction with an environment using
 rewards and penalties rather than labeled examples.
+
+
+1. Difference between shape and size?
+
+2. Difference between shape and ndim?
+
+3. What does (3,4) mean?
+
+4. What does (5,) mean?
+
+5. Why are shapes important in Machine Learning?
