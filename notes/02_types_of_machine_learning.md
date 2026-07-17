@@ -5,14 +5,14 @@
     output (labels). The model learns the relationship between them and predicts the
     output for new, unseen data.
     
----------------------------------------------------------------------------------------------
+---
 
 2. What is Unsupervised Learning?
 
     In Unsupervised Learning, the training data has no labels. The algorithm discovers
     hidden patterns, relationships, or groups within the data.
 
----------------------------------------------------------------------------------------------
+---
 
 3. What is Reinforcement Learning?
 
@@ -21,7 +21,7 @@
     It performs actions and receives rewards or penalties, gradually learning the
     best strategy to maximize long-term reward.
 
----------------------------------------------------------------------------------------------
+---
 
 4. One real-world example of each.
 
@@ -34,7 +34,7 @@
     Reinforcement Learning
     - Self-driving car learning to navigate safely.
 
----------------------------------------------------------------------------------------------
+---
 
 5. A comparison table.
 
@@ -46,4 +46,4 @@
 
 
 
----------------------------------------------------------------------------------------------
+---
