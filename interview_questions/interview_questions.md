@@ -33,3 +33,9 @@ Difference between & and |?
 Why do we use parentheses with multiple conditions?
 How do you filter rows where Marks > 80?
 Where is filtering used in ML?
+
+What is NaN?
+Why can't many ML models handle missing values directly?
+Difference between dropna() and fillna()?
+Why is the mean often used for numeric columns?
+Would you always use the mean? Why or why not?
