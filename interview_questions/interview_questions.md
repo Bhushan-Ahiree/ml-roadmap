@@ -22,13 +22,14 @@ Answer:
 No. Reinforcement Learning learns through interaction with an environment using
 rewards and penalties rather than labeled examples.
 
+Difference between shape and size?
+Difference between shape and ndim?
+What does (3,4) mean?
+What does (5,) mean?
+Why are shapes important in Machine Learning?
 
-1. Difference between shape and size?
-
-2. Difference between shape and ndim?
-
-3. What does (3,4) mean?
-
-4. What does (5,) mean?
-
-5. Why are shapes important in Machine Learning?
+Why do we filter data?
+Difference between & and |?
+Why do we use parentheses with multiple conditions?
+How do you filter rows where Marks > 80?
+Where is filtering used in ML?
