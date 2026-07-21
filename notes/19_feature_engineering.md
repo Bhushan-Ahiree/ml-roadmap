@@ -74,6 +74,26 @@ df.rename(columns={"Sex":"Gender"})
 
 ---
 
+⭐ Gold Insight (Industry)
+
+Feature engineering is where business understanding meets machine learning.
+
+Example:
+
+In real estate, instead of just using:
+
+Area
+
+You might create:
+
+Price per square foot
+Property age
+Distance to city center
+
+These new features often help the model learn better patterns.
+
+---
+
 ## Key Takeaways
 
 - Better features usually improve models.
