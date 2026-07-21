@@ -39,3 +39,9 @@ Why can't many ML models handle missing values directly?
 Difference between dropna() and fillna()?
 Why is the mean often used for numeric columns?
 Would you always use the mean? Why or why not?
+
+What is Feature Engineering?
+Why is it important?
+Give three examples of Feature Engineering.
+Why remove unnecessary columns?
+Can Feature Engineering improve accuracy?
