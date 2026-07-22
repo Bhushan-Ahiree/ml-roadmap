@@ -45,3 +45,9 @@ Why is it important?
 Give three examples of Feature Engineering.
 Why remove unnecessary columns?
 Can Feature Engineering improve accuracy?
+
+What is Scikit-learn?
+Difference between regression and classification?
+What are features (X)?
+What is the target (y)?
+What does fit() do?
