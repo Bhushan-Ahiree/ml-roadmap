@@ -51,3 +51,36 @@ Difference between regression and classification?
 What are features (X)?
 What is the target (y)?
 What does fit() do?
+
+
+# Interview Questions
+
+## What is statistics?
+
+Statistics is the science of collecting, analyzing, summarizing, and interpreting data.
+
+---
+
+## What is the difference between population and sample?
+
+Population is the complete collection of observations.
+
+Sample is a subset selected from the population.
+
+---
+
+## Why do we use samples instead of populations?
+
+Because collecting the entire population is often expensive, time-consuming, or impossible.
+
+---
+
+## What is descriptive statistics?
+
+Descriptive statistics summarizes the existing data.
+
+---
+
+## What is inferential statistics?
+
+Inferential statistics uses sample data to make conclusions about the entire population.
