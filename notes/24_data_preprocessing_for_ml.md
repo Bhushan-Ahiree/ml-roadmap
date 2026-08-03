@@ -76,17 +76,8 @@ Categorical features are divided into two categories.
 
 Nominal features have **no natural order**.
 
-Examples:
-
-- City
-- Property Type
-- Color
-
-Example:
-
-Flat, House and Villa are different categories.
-
-One is not greater or smaller than another.
+- Examples: City, Property Type, Color
+- One category is not greater or smaller than another.
 
 ---
 
@@ -94,17 +85,8 @@ One is not greater or smaller than another.
 
 Ordinal features have a **meaningful order**.
 
-Examples:
-
-- Education Level
-- Customer Rating
-- T-Shirt Size
-
-Example:
-
-Small < Medium < Large
-
-The categories have an order.
+- Examples: Education Level, Customer Rating, T-Shirt Size
+- The categories have an order (e.g. Small < Medium < Large).
 
 ---
 
@@ -125,27 +107,8 @@ Common encoding methods:
 
 One-Hot Encoding creates a separate binary column for every category.
 
-Example:
-
-Property Type
-
-Flat
-
-House
-
-Villa
-
-becomes
-
-Is_Flat
-
-Is_House
-
-Is_Villa
-
-Only one column contains 1 for each record.
-
-This is the preferred method for **Nominal Features**.
+- Only one column contains 1 for each record.
+- This is the preferred method for **Nominal Features**.
 
 ---
 
@@ -153,17 +116,8 @@ This is the preferred method for **Nominal Features**.
 
 Label Encoding assigns an integer to every category.
 
-Example:
-
-Small → 0
-
-Medium → 1
-
-Large → 2
-
-This method is suitable for **Ordinal Features** because the order is preserved.
-
-Using Label Encoding for Nominal Features can incorrectly introduce an order where none exists.
+- Suitable for **Ordinal Features** because the integer order preserves the natural order.
+- Using Label Encoding for Nominal Features can incorrectly introduce an order where none exists.
 
 ---
 

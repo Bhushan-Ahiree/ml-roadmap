@@ -62,3 +62,31 @@ Better Features
 ↓
 
 Better Model
+
+---
+
+## Key Takeaways
+
+- Always explore a dataset before building a model.
+- EDA reveals missing values, outliers, distributions, and relationships.
+- Good EDA leads to better features and better models.
+
+---
+
+# Interview Questions
+
+### What is EDA?
+
+Exploratory Data Analysis. The process of understanding a dataset systematically before building a model.
+
+---
+
+### Why do we perform EDA before modelling?
+
+To understand data types, detect missing values, find outliers, and discover patterns that guide feature engineering decisions.
+
+---
+
+### Name three common EDA functions in Pandas.
+
+`df.info()`, `df.describe()`, `df.isnull().sum()`

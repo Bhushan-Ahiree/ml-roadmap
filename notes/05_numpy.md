@@ -32,8 +32,7 @@ The primary data structure in NumPy is called ndarray (N-dimensional Array).
 
 ## Creating Arrays
 
-```
-python
+```python
 import numpy as np
 
 arr = np.array([1,2,3])

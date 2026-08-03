@@ -91,3 +91,43 @@ X = Features
 y = Target
 
 Regression predicts continuous values.
+
+---
+
+# Interview Questions
+
+### What is Scikit-learn?
+
+The most popular Python library for traditional Machine Learning. It provides
+ready-to-use implementations of ML algorithms.
+
+---
+
+### What is the difference between regression and classification?
+
+Regression predicts continuous numbers (e.g. house price).
+Classification predicts categories (e.g. spam or not spam).
+
+---
+
+### What are features (X)?
+
+The input variables the model uses to make predictions.
+
+---
+
+### What is the target (y)?
+
+The output variable the model is trained to predict.
+
+---
+
+### What does model.fit() do?
+
+Trains the model by learning the relationship between X and y in the training data.
+
+---
+
+### What does model.predict() do?
+
+Uses the trained model to make predictions on new input data.

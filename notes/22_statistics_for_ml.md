@@ -125,3 +125,42 @@ Machine Learning mostly begins with descriptive statistics, while many advanced 
 - Most ML datasets are samples.
 - Descriptive statistics summarizes data.
 - Inferential statistics makes conclusions about populations using samples.
+
+---
+
+# Interview Questions
+
+### What is the difference between mean and median?
+
+Mean is the average of all values. Median is the middle value when data is sorted.
+
+---
+
+### When should you use the median instead of the mean?
+
+When the data contains outliers. The median is resistant to extreme values, whereas the mean is sensitive to them.
+
+---
+
+### What does standard deviation measure?
+
+How spread out the values are from the mean. A low standard deviation means values cluster close together.
+
+---
+
+### What is the IQR and why is it used?
+
+The Interquartile Range (Q3 - Q1). Used to measure the spread of the middle 50% of data and to detect outliers.
+
+---
+
+### What is the difference between covariance and correlation?
+
+Covariance measures the direction of the relationship between two variables.
+Correlation normalises it to a scale of -1 to 1, measuring both direction and strength.
+
+---
+
+### What does a correlation of 0 mean?
+
+No linear relationship between the two variables.

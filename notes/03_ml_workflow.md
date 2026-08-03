@@ -1,3 +1,5 @@
+# ML Workflow
+
 ## This is where beginners make a huge mistake.
 
         They think:
@@ -113,3 +115,31 @@ A beginner spends hours choosing algorithms.
 An experienced ML engineer spends time making sure the data is good.
 
 A simple algorithm on clean data often outperforms a sophisticated algorithm on poor-quality data.
+
+---
+
+## Key Takeaways
+
+- ML is more than training a model. Most time is spent on data.
+- Every ML project starts with a business problem, not an algorithm.
+- A simple algorithm on clean data beats a complex algorithm on dirty data.
+
+---
+
+# Interview Questions
+
+### What are the major steps in the ML workflow?
+
+Business Problem → Collect Data → Understand Data → Clean Data → EDA → Feature Engineering → Train/Test Split → Train Model → Evaluate → Deploy → Monitor → Retrain.
+
+---
+
+### Why does data preparation take more time than model training?
+
+Because real-world data contains missing values, wrong types, duplicates, and outliers that must all be handled before a model can learn.
+
+---
+
+### What is the difference between EDA and Data Cleaning?
+
+Data Cleaning fixes problems in the data. EDA explores it to understand patterns and relationships.
