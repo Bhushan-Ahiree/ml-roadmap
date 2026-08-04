@@ -231,3 +231,66 @@ Descriptive statistics summarizes the existing data using measures like mean, me
 ### What is inferential statistics?
 
 Inferential statistics uses sample data to make conclusions about the entire population.
+
+---
+
+# Interview Insight
+
+### What is the main difference between Ridge and Lasso?
+
+Ridge keeps all features but reduces their influence.
+
+Lasso can completely remove less important features.
+
+---
+
+### What is ElasticNet?
+
+ElasticNet combines the ideas of Ridge and Lasso.
+
+---
+
+### Why can Decision Trees overfit?
+
+Because they can learn very specific patterns and noise from the training data.
+
+---
+
+### Why does Random Forest usually perform better than a single Decision Tree?
+
+Because it combines predictions from many trees, reducing overfitting and improving generalization.
+
+---
+
+# Interview Insight
+
+### Which regression model should you try first?
+
+Usually Linear Regression because it is simple, fast, and provides a strong baseline.
+
+---
+
+### Which regression algorithms require feature scaling?
+
+Linear Regression, Ridge, Lasso, and ElasticNet generally benefit from scaling.
+
+---
+
+### Which algorithms naturally model non-linear relationships?
+
+Decision Tree and Random Forest.
+
+---
+
+### Which algorithm performs feature selection?
+
+Lasso Regression.
+
+---
+
+### Why is Random Forest more robust than a Decision Tree?
+
+It averages predictions from multiple trees, reducing variance and improving generalization.
+
+---
+
