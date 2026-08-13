@@ -28,17 +28,17 @@ This repository documents my learning process through implementations, experimen
 * [x] Data Visualization
 * [x] Exploratory Data Analysis (EDA)
 * [x] Feature Engineering
-* [ ] Statistics for ML
-* [ ] Linear Algebra for ML
+* [x] Statistics for ML
+* [x] Linear Algebra for ML
 
 ---
 
 ### 📈 Supervised Learning
 
-* [ ] Linear Regression
-* [ ] Logistic Regression
-* [ ] K-Nearest Neighbors (KNN)
-* [ ] Decision Trees
+* [x] Linear Regression
+* [x] Logistic Regression
+* [x] K-Nearest Neighbors (KNN)
+* [x] Decision Trees
 * [ ] Random Forest
 * [ ] Support Vector Machines (SVM)
 * [ ] Naive Bayes
