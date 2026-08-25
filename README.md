@@ -39,9 +39,9 @@ This repository documents my learning process through implementations, experimen
 * [x] Logistic Regression
 * [x] K-Nearest Neighbors (KNN)
 * [x] Decision Trees
-* [ ] Random Forest
-* [ ] Support Vector Machines (SVM)
-* [ ] Naive Bayes
+* [x] Random Forest
+* [x] Support Vector Machines (SVM)
+* [x] Naive Bayes
 
 ---
 
