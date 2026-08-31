@@ -1,61 +1,68 @@
-# Regression Cross-Validation & Model Comparison
-
-## Why Cross-Validation for Regression?
-
-A single train/test split gives us only one estimate of model performance.
-
-The result can depend on which observations happen to be placed in the test set.
-
-Cross-validation allows us to evaluate a regression model across multiple validation folds.
-
----
-
 # Regression Cross-Validation
 
-For regression, K-Fold cross-validation is commonly used.
+## Why Regression Needs Cross-Validation
 
-With 5-fold cross-validation:
+We already learned cross-validation for classification.
 
-1. The training data is divided into five folds.
-2. Four folds are used for training.
-3. One fold is used for validation.
-4. This is repeated until every fold has been used for validation.
-5. The validation scores are averaged.
+The same principle applies to regression.
 
----
+The difference is the evaluation metric.
 
-# Choosing a Regression Metric
-
-Unlike classification, regression does not use accuracy.
-
-We can evaluate regression models using metrics such as:
+For regression we can evaluate models using:
 
 - MAE
 - RMSE
 - R²
 
-In this notebook, we'll use MAE for model comparison.
+Cross-validation lets us evaluate a regression model across multiple validation folds instead of relying on one split.
 
-Lower MAE is better.
+---
+
+# K-Fold Cross-Validation
+
+For regression, K-Fold cross-validation is commonly used.
+
+With 5-fold cross-validation:
+
+1. The training data is divided into 5 folds.
+2. Four folds are used for training.
+3. One fold is used for validation.
+4. The process is repeated five times.
+5. The scores are summarized.
+
+---
+
+# Regression Scoring in scikit-learn
+
+Some regression metrics are losses where lower values are better.
+
+However, scikit-learn's scoring system follows a "higher is better" convention.
+
+Therefore:
+
+- `neg_mean_absolute_error`
+- `neg_root_mean_squared_error`
+
+return negative values.
+
+For example:
+
+`-0.50` means an actual MAE of `0.50`.
+
+When interpreting these metrics, we convert them back to positive error values.
 
 ---
 
 # Important Rule
 
-The final test set remains untouched during model comparison.
+Cross-validation should be performed on the training data when a final test set has been reserved.
 
-Cross-validation is performed only on the training data.
-
-After selecting a model, we evaluate it once on the final test set.
+The final test set should remain untouched during model comparison.
 
 ---
 
-# Why Use a Single Metric for Comparison?
+# Key Takeaway
 
-Using one primary metric makes model comparison straightforward.
+Cross-validation works for both classification and regression.
 
-The choice should depend on the real problem.
-
-Here we use MAE because it is easy to interpret as average absolute prediction error.
-
-Other metrics can still be reported when evaluating the final model.
+The main difference is the scoring metric used to evaluate the predictions.
